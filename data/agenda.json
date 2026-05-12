@@ -1,0 +1,14 @@
+{
+    "Juan": {
+        "nombre": "Juan",
+        "apellido": "Florez",
+        "telefono": 123,
+        "correo": "a@a.com"
+    },
+    "Jose": {
+        "nombre": "Jose",
+        "apellido": "Sandoval",
+        "telefono": 313,
+        "correo": "a2@a.com"
+    }
+}
