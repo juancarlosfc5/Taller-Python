@@ -69,5 +69,15 @@ def actualizar_contacto(lista_contactos):
     ut.pausar_pantalla()
 
 def eliminar_contacto(lista_contactos):
+    ut.borrar_pantalla()
     print("Eliminar contacto")
-    nombre = buscar_contacto(lista_contactos)
+    nombre = input("Ingrese el nombre del contacto que quiere eliminar: ").lower()
+
+    if nombre in lista_contactos:
+        lista_contactos.pop(nombre)
+        print("Contacto eliminado")
+        cr.AddData(lista_contactos)
+        ut.pausar_pantalla()
+    else:
+        print("El contacto no existe")
+        ut.pausar_pantalla()
