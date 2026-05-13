@@ -1,14 +1,32 @@
 {
-    "Juan": {
-        "nombre": "Juan",
-        "apellido": "Florez",
-        "telefono": 123,
+    "juan": {
+        "nombre": "juan",
+        "apellido": "florez",
+        "telefono": 300,
         "correo": "a@a.com"
     },
-    "Jose": {
-        "nombre": "Jose",
-        "apellido": "Sandoval",
+    "jose": {
+        "nombre": "jose",
+        "apellido": "sandoval",
         "telefono": 313,
         "correo": "a2@a.com"
+    },
+    "diego": {
+        "nombre": "diego",
+        "apellido": "parra",
+        "telefono": 314,
+        "correo": "a2@a.com"
+    },
+    "manuel": {
+        "nombre": "manuel",
+        "apellido": "amado",
+        "telefono": 315,
+        "correo": "a3@a.com"
+    },
+    "fabian": {
+        "nombre": "fabian",
+        "apellido": "uribe",
+        "telefono": 316,
+        "correo": "a4@a.com"
     }
 }
