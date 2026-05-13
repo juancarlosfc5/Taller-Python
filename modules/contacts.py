@@ -70,3 +70,4 @@ def actualizar_contacto(lista_contactos):
 
 def eliminar_contacto(lista_contactos):
     print("Eliminar contacto")
+    nombre = buscar_contacto(lista_contactos)
